@@ -1,0 +1,51 @@
+
+#titulo1{
+    color: purple;
+}
+.imagem1{ /* O DISPLAY ESTA INLINE ENTAO E PRECISO COLOCAR ELE EM BLOCK PARA PODER CENTRALIZAR A IMAGEM*/
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.imagem2{ /*COMO A IMAGEM 2 ESTA DENTRO DE UM /DIV ELA AUTOMATICAMENTE FICA EM FORMATO DISPLAY BLOCK FICA MUITO MAIS FACIL CENTRALIZAR A IMAGEM NO FORMATO DIV.*/
+    text-align: center;
+}
+.conteudo1{
+    font-size: 14px;
+    color: black;
+    background-color: chartreuse;
+    border: 10px solid green;
+    
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+}
+#conteudo2 {
+    font-size: 20px;
+    background-color: cyan;
+    color: blue;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-width: 7px;
+    border-style: dashed;
+    border-color: brown;
+   
+
+}
+
+#conteudo3 {
+    font-size: 25px;
+    background-color: cyan;
+    color: blue;
+    background-color: crimson;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(206, 209, 16);
+}
+.linha{
+    display: flex; /* O DISPLAY FLEX ELE ALINHA OS CONTEUDOS E APTA PARA COLOCAR TODOS JUNTOS */
+    justify-content: center;
+}
